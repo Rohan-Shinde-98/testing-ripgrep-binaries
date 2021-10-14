@@ -6,4 +6,4 @@ script: |
   chmod +x rg
   ./rg
   ./rg --help
- 
+  ./rg -h
