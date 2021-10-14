@@ -1,0 +1,8 @@
+os: linux
+arch: s390x
+script: |
+  wget https://github.com/Rohan-Shinde-98/ripgrep-prebuilt/releases/download/v14.0.0/ripgrep-v14.0.0-s390x-unknown-linux-gnu.tar.gz
+  tar -xvf ripgrep-v14.0.0-s390x-unknown-linux-gnu.tar.gz
+  chmod +x rg
+  ./rg
+  ./rg --help
